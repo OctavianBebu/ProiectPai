@@ -3,7 +3,7 @@
 require 'config.php';
 
 // Create a MySQLi connection
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check the connection
 if ($conn->connect_error) {

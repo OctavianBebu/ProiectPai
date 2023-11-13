@@ -68,8 +68,8 @@ if (!isset($_SESSION['username'])) {
     <p>Your email: <?php echo $_SESSION['email']; ?></p>
 
     <div style="text-align: center;padding-bottom: 10px;">
-        <a href="proiect.pdf" download class="profile-button">Descarca proiect</a>
-        <a href="Ion Madalin CV.pdf" download class="profile-button">Descarca CV</a>
+        <a href="Elemente Profil\proiect.pdf" download class="profile-button">Descarca proiect</a>
+        <a href="Elemente Profil\Ion Madalin CV.pdf" download class="profile-button">Descarca CV</a>
     </div>
 
     <!-- Add this inside the <div class="container"> just after the other links/buttons -->
